@@ -8,15 +8,24 @@
 
   <script type="text/javascript">
     // data (variables)
+    var object = {name:"Bascis of javascript" , link:"https://www.w3schools.com/js/default.asp", discription:"This project is for beginer javascript students"};
 
     // functions
+    function print_deets(object) {
+      console.log("Project Name:" + object.name);
+      console.log("Project Linke:" + object.link);
+      console.log("Project Discription:" + object.discription);
+    }
 
   </script>
+
 </head>
 
 <body>
-  <h1>week 1 index.html</a>
-  <!-- delete this button when you're ready to start! -->
-  <a href="./example-to-study.html">example to study</a>
+    <h1> Welcome to  JavaScript Webpage 1 </h1>
+
+    <button onclick="print_deets(object);">DeeTS</button> <br>
+  <li class="blue"><a href="./team.html"> Go to Team Page</a> </li> 
+  <li class="purple"><a href="./calc.html"> Go to Calcator Page</a> 
 </body>
 </html>
